@@ -9,6 +9,32 @@ const OUTPUT_DIR = path.resolve(__dirname, "output")
 const outputPath = path.join(OUTPUT_DIR, "team.html");
 ​
 const render = require("./lib/htmlRenderer");
+
+const Employees = [];
+
+const employeeQuestions = [
+    {
+        type: "input",
+        message: "What is your name?",
+        name: "name"
+    },
+    {
+        type: "input",
+        message: "What is your ID#?", 
+        name: "id"
+    },
+    {
+        type: "input", 
+        message: "What is your email address?", 
+        name: "email"
+    },
+    {
+        type: "list", 
+        message: "What is your role in the company?",
+        name: 
+    }
+]
+
 ​
 ​
 // Write code to use inquirer to gather information about the development team members,
