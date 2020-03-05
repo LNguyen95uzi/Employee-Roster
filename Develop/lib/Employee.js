@@ -1,5 +1,5 @@
 // TODO: Write code to define and export the Employee class
-const _default = require("jest");
+const inquier = require("inquirer");
 
 class Employee {
     constructor(name, id, email) {
@@ -13,7 +13,7 @@ class Employee {
         return this.name
     };
 
-    getID() {
+    getId() {
         return this.id
     };
 
